@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Normalize -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Main Faile Css  -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Font Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- slide -->
+        <link rel="stylesheet" href="./css/splide.min.css" />
+        <!-- Aos Scroll -->
+        <link rel="stylesheet" href="./css/aos.css" />
+    </head>
+    <body>
+        <!-- Start Nav -->
+        <nav class="navbar py-3 navbar-expand-lg navbar-light bg-white">
+            <div
+                class="container justify-content-between justify-content-lg-center gap-4"
+            >
+                <a class="navbar-brand" href="#"
+                    ><img src="./images/logo.png" alt=""
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse flex-grow-1 flex-lg-grow-0"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >الرئيسية</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                الخدمات
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                        زراعة الأسنان
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        تقويم الأسنان</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        تقويم الأسنان الشفاف
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        تبييض الأسنان
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        تركيبات الأسنان الثابتة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        تجميل الأسنان
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        حالات جراحة الوجه والفكين
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fa-solid fa-caret-left"></i>
+
+                                        حشو العصب وعلاج الجذور
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">مركز زراعة الأسنان</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">فروعنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">فريق العمل </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> أتصل بنا </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav -->
+        <!-- Start LAnding -->
+        <section class="landing py-5">
+            <div class="container">
+                <div
+                    dir="ltr"
+                    class="splide ms-md-0 ms-auto me-auto"
+                    role="group"
+                    id="landing-slide"
+                    aria-label="Splide Basic HTML Example"
+                >
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="text">
+                                    <h1>تقويم الأسنان</h1>
+                                    <h2>حتي تتمتع بأبتسامة ساحرة</h2>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="text">
+                                    <h1>تقويم الأسنان</h1>
+                                    <h2>حتي تتمتع بأبتسامة ساحرة</h2>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="text">
+                                    <h1>تقويم الأسنان</h1>
+                                    <h2>حتي تتمتع بأبتسامة ساحرة</h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Landing -->
+        <!-- Start reservation  -->
+        <section
+            class="reservation py-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <div class="container">
+                <div class="box">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-lg-5 px-4 mb-3 mb-lg-0 text-center text-lg-end"
+                        >
+                            <form class="d-flex flex-column gap-2" action="">
+                                <h2>لحجز موعد</h2>
+                                <input
+                                    type="email"
+                                    placeholder="االبريد الالكتروني"
+                                    name="email"
+                                    id="email"
+                                />
+                                <div class="select position-relative">
+                                    <select class="w-100" name="" id="">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                                <div class="group-inp position-relative">
+                                    <input
+                                        class="w-100"
+                                        type="text"
+                                        placeholder=" التاريخ"
+                                        name="date"
+                                        id="date"
+                                    />
+                                    <div class="icon-date">
+                                        <i
+                                            class="fa-solid fa-calendar-days position-absolute"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <input type="submit" value="حجز الأن" />
+                            </form>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="cont-img">
+                                <img
+                                    class="img-fluid"
+                                    src="./images/Layer 7.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End reservation -->
+        <!-- Start Why Us -->
+        <section
+            class="why-us py-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-lg-6 ps-lg-4 text-center text-lg-end mb-3 mb-lg-0"
+                    >
+                        <div class="cont-img">
+                            <img
+                                class="img-fluid"
+                                src="./images/586470.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text">
+                            <h4>لماذا نحن</h4>
+                            <p>
+                                هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                إدخال بعض النوادر أو الكلمات العشوائية إلى النص
+                                إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك
+                                أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات
+                                محرجة أو غير لائقة مخبأة في هذا النص بينما تعمل
+                                جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على
+                                إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة
+                                مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا
+                                باستخدام كلمات من قاموس يحوي ع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Us -->
+        <!-- Start Services -->
+        <section
+            class="services py-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <div class="container">
+                <h3 class="main-hidd">الخدمات الطبية</h3>
+                <div class="row gap-row">
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/h-3.png" alt="" />
+                            <div class="text">
+                                <h4>تقويم الأسنان</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/h-2.png" alt="" />
+                            <div class="text">
+                                <h4>زراعة الأسنان</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/Layer 16.png" alt="" />
+                            <div class="text">
+                                <h4>تقويم الاسنان الشفاف</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/h-1.png" alt="" />
+                            <div class="text">
+                                <h4>تبييض الأسنان</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/Layer 10.png" alt="" />
+                            <div class="text">
+                                <h4>التركيبات الثابتة</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/Layer 13.png" alt="" />
+                            <div class="text">
+                                <h4>تجميل الأسنان</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/Layer 14.png" alt="" />
+                            <div class="text">
+                                <h4>حالات جراحة الوجه والفكين</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box">
+                            <img src="./images/Layer 12.png" alt="" />
+                            <div class="text">
+                                <h4>حشو العصب وعلاج الجذور</h4>
+                                <p>
+                                    هنالك العديد من الأنواع المتوفرة لنصوص لوريم
+                                    إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                                    إدخال بعض النوادر أو الكلمات العشوائية إلى ا
+                                </p>
+                                <a href="">
+                                    المزيد
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="main-btn mt-5 mx-auto">
+                    المزيد من الخدمات
+                    <i class="fa-solid fa-angles-left"></i>
+                </a>
+            </div>
+        </section>
+        <!-- End Services -->
+        <!-- Start Contact  -->
+        <section
+            class="contact"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <div class="container vh-100 position-relative">
+                <div class="content">
+                    <h4>التميز</h4>
+                    <p>
+                        افضل مراكز الأسنان يالخليج العربي لعلاج الأسنان نقدم
+                        أفضل خدمات زراعة الأسنان، التقويم والتجميل للأسنان،
+                        وتبييض الأسنان، التركيبات الثابتة، حشو العصب وعلاج
+                        الجذور وتجميل الأسنان بأفضل الطرق العالمية
+                    </p>
+                    <h4>تجربة طبية لا مثيل لها</h4>
+                    <div
+                        class="group-contact mt-4 flex-wrap d-flex align-items-center justify-content-between gap-2"
+                    >
+                        <div class="phone">
+                            <span>لحجز موعد</span>
+                            05012345678
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="whatsapp">
+                            <span>الواتساب</span>
+                            05012345678
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact  -->
+        <!-- Start Section counts -->
+        <section
+            class="counts py-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <div class="container">
+                <div class="row gap-row">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="box active">
+                            <div class="count">98%</div>
+                            <p>نسبة الرضي عن خدمات المركز</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="box">
+                            <div class="count">160</div>
+                            <p>حالة تجميل أسنان</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="box">
+                            <div class="count">732</div>
+                            <p>حالة تقويم أسنان</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="box">
+                            <div class="count">1247</div>
+                            <p>حالة زراعة أسنان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section counts -->
+        <!-- Start Section map -->
+        <section
+            class="map"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="150"
+        >
+            <iframe
+                class="w-100 h-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.193590107357!2d46.659533085479275!3d24.72023325695253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2f16a1c6709%3A0x6aa7ce59c063b9f5!2z2LTYp9ix2Lkg2KfZhNiq2K7Ytdi12YrYjCDYp9mE2LHZitin2LYgMTIzNDTYjCDYp9mE2LPYudmI2K_Zitip!5e0!3m2!1sar!2seg!4v1651932719933!5m2!1sar!2seg"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+        <!-- End Secction map -->
+        <!-- Start Footer -->
+        <footer>
+            <!-- Footer Top -->
+            <div class="footer-top py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h3>الأقسام</h3>
+                            <div class="row">
+                                <div class="col-sm-6 col-xl-4">
+                                    <ul class="sections">
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                الرائيسية</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                من نحن</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                زراعة الاسنان</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                تقويم الاسنان</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 col-xl-4">
+                                    <ul class="sections">
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                تقويم الاسنان الشفاف</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                تبيض الأسنان</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                تركيبات الأسنان الثابتة</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                تحميل الأسنان</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 col-xl-4">
+                                    <ul class="sections">
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                حالات جراحة الوجه والفكين</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                حشو العصب وعلاج الجذور
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=""
+                                                ><i
+                                                    class="fa-solid fa-angle-left"
+                                                ></i>
+                                                السباحة العلاجية
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-xl-6 me-auto">
+                                    <h3>للتواصل معنا</h3>
+                                    <ul
+                                        class="align-items-start align-items-xl-end"
+                                    >
+                                        <li>
+                                            966123456789+
+                                            <i class="fa-solid fa-phone"></i>
+                                        </li>
+                                        <li>
+                                            966123456789+
+                                            <i
+                                                class="fa-solid fa-mobile-screen"
+                                            ></i>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="mailto:info@websitename.com"
+                                            >
+                                                info@websitename.com
+                                                <i
+                                                    class="fa-solid fa-envelope"
+                                                ></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">www.websitename.com</a>
+                                            <i class="fa-solid fa-globe"></i>
+                                        </li>
+                                    </ul>
+                                    <div
+                                        class="group-social d-flex align-items-center gap-2 justify-content-start justify-content-xl-end"
+                                    >
+                                        <a href="" class="whats">
+                                            <i
+                                                class="fa-brands fa-whatsapp"
+                                            ></i>
+                                        </a>
+                                        <a href="" class="facebook">
+                                            <i
+                                                class="fa-brands fa-facebook-f"
+                                            ></i>
+                                        </a>
+                                        <a href="" class="twitter">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                        <a href="" class="snap">
+                                            <i
+                                                class="fa-brands fa-snapchat"
+                                            ></i>
+                                        </a>
+                                        <a href="" class="insta">
+                                            <i
+                                                class="fa-brands fa-instagram"
+                                            ></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom py-3">
+                <div class="container">
+                    <div
+                        class="d-flex flex-wrap align-items-center justify-content-between gap-3"
+                    >
+                        <p>جميع الحقوق محفوظة © لـ 2022</p>
+                        <img src="./images/Group 24 copy.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!-- Js Files -->
+        <script src="js/aos.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="./js/splide.min.js"></script>
+    </body>
+</html>
